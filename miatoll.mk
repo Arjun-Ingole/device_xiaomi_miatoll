@@ -107,6 +107,10 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh \
     init.target.rc
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.example
+
 # NFC
 TARGET_NFC_SKU := joyeuse
 
