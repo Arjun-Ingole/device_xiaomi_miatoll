@@ -128,13 +128,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/miatoll
 
-# Overlays
-PRODUCT_PACKAGES += \
-    AOSPAMiatollFrameworks \
-    AOSPAMiatollSettings \
-    MiatollFrameworks \
-    MiatollSystemUI
-
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
