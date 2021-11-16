@@ -99,9 +99,6 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 
 TARGET_KERNEL_CONFIG := vendor/miatoll-perf_defconfig
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
