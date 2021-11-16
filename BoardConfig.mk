@@ -58,6 +58,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
+
 # HIDL
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/manifest.xml
