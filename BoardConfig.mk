@@ -62,12 +62,8 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_TAP_TO_WAKE_EVENT_NODE  := "/dev/input/event1"
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/xiaomi_vendor_framework_compatibility_matrix.xml
-
 DEVICE_MANIFEST_FILE += \
-    $(DEVICE_PATH)/manifest.xml \
-    $(DEVICE_PATH)/xiaomi_manifest.xml
+    $(DEVICE_PATH)/manifest.xml
 
 DEVICE_MATRIX_FILE += device/qcom/common/compatibility_matrix.xml
 
