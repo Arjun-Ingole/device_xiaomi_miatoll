@@ -1,5 +1,5 @@
-# IR
-type spidev_device, dev_type;
+type fingerprint_device, dev_type;
 
-# FP
-type vendor_fingerprint_device, dev_type;
+type lirc_device, dev_type;
+
+type sound_device, dev_type;
