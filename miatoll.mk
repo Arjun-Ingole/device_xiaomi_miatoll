@@ -205,6 +205,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     vibrator \
     wlan
 
+include device/qcom/common/BoardConfigQcom.mk
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.5 \
