@@ -58,9 +58,6 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
-# Gestures
-TARGET_TAP_TO_WAKE_EVENT_NODE  := "/dev/input/event1"
-
 # HIDL
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/manifest.xml
