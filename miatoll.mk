@@ -20,9 +20,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
-# APEX
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -252,9 +249,6 @@ $(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
 # Vibrator
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
-
-# VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
 # WiFi
 PRODUCT_COPY_FILES += \
